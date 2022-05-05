@@ -20,6 +20,7 @@ final class MenuItemCell: UITableViewCell {
          let title = UILabel()
          title.font = .systemFont(ofSize: 15, weight: .regular)
          title.numberOfLines = 0
+         title.text = "teste"
          title.translatesAutoresizingMaskIntoConstraints = false
          return title
      }()
@@ -29,6 +30,7 @@ final class MenuItemCell: UITableViewCell {
          cost.font = .systemFont(ofSize: 13)
          cost.textColor = UIColor.gray
          cost.numberOfLines = 0
+         cost.text = "R$20,00"
          cost.translatesAutoresizingMaskIntoConstraints = false
          return cost
      }()
