@@ -8,7 +8,9 @@
 import UIKit
 
 class MenuItemViewController: UIViewController {
-
+    
+    let menuItemView = MenuItemView()
+    
     init() {
         super.init(nibName: nil, bundle: nil)
 
@@ -20,6 +22,6 @@ class MenuItemViewController: UIViewController {
     }
 
     override func loadView() {
-        self.view = MenuItemView()
+        self.view = menuItemView
     }
 }
